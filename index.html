@@ -2,7 +2,7 @@
 <head>
     <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8a7af4946d.js" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
     <title>Max Bell</title>
     <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
@@ -151,11 +151,11 @@
                 <input id="name" name="name">
 
                 <label for="email">Email</label>
-                <input id="email" name="email" type="email">
+                <input required id="email" name="email" type="email">
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="7" cols="40"></textarea>
-                <button class="submit" type="submit">Send</button>
+                <textarea required id="message" name="message" rows="7" cols="40"></textarea>
+                <button class="submit" type="submit" data-after="→" id="submit">Send</button>
             </form>
         </section>
         <footer>
