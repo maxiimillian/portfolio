@@ -553,9 +553,24 @@ h1 {
         width: 90%;
     }
 
+    .non-main-section {
+        padding: 0px;
+        border: none;
+        background-color: unset;
+        margin: 0 auto;
+    }
+
+    .main-project-container {
+        margin: 20px 0;
+    }
+
     .sub-project-container {
         width: 100%;
-        margin-top: 20px;
+        margin: 20px 0;
+    }
+
+    .project-status {
+        margin: 0;
     }
 
     .main-project-image-container {
